@@ -1,4 +1,4 @@
-# New-Web
+# News-Web
 
 The url for our news website:
 
