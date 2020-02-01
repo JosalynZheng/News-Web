@@ -1,7 +1,4 @@
-# CSE330
-466838
-
-466949
+# New-Web
 
 The url for our news website:
 
@@ -37,27 +34,3 @@ This page will list all stories that you wrote, allowing users to edit their sto
 6.upload image
 
 When logined users click addstory, they can choose to upload a image for this story, but it not the required part, users do not have to load a image for each news.
-
-
----
-
-Grade: **61/75**  
-
-Comments:  
-##### Relational database is configured with correct data types and foreign keys:
--2: did not include results of `SHOW CREATE TABLE`; only included results of `DESCRIBE TABLE`. Can see the data types, but cannot tell the exact key reference structure
-
-##### Stories can be posted:
--3: cannot add new story (`addStory.php` does not render anything)
-
-##### A link can be associated with each story using a separate database field: 
--3: `link` not found in the DB fields
-
-##### Site follows the FIEO philosophy: 
--3: vulnerable to XSS attack (entered `<script>alert("malicious");</script>` into the comments box and Javascript executed
-
-##### All pages pass the W3C validator:
--2: mainpage.php has multiple Errors from the HTML validator (`Element p not allowed as child of element ul in this context`
-
-##### Site is intuitive to use and navigate:
--1: can edit posts only in "ownPage" tab, and editing window does not show what the title and content were before
